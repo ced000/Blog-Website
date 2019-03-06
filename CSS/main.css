@@ -1,0 +1,179 @@
+html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  padding: inherit;
+  margin-left: 10px;
+  background-color: skyblue;
+}
+
+div {
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 3px 3px 3px 3px #888888;
+  padding-bottom:20px;
+}
+
+.header {
+  text-align: center;
+  font-weight: bold;
+  background-image: url("../Images/bookshelf.jpeg");
+  background-size: contain;
+  color: white;
+  text-shadow: 3px 3px 3px 3px #888888;
+  margin-top: 60px;
+}
+
+.img-circle {
+  padding: 0px;
+  margin-top: 10px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+
+.about {
+  word-spacing: 5px;
+  font-size: 19px;
+  text-shadow: 2px 2px 5px #888888;
+  text-indent: 20px;
+}
+
+.about ::first-letter {
+  font-size: 200%
+}
+
+h1,h2,h4 {
+  font-family: fantasy;
+  font-weight: normal;
+  text-align: center;
+  padding: 15px 5px 0px 5px;
+  color: skyblue;
+  text-shadow: 2px 2px 5px #888888;
+}
+
+p {
+  font-family: cursive;
+  margin: 3px;
+  padding: 10px;
+}
+
+.header p {
+  margin-top: 0px;
+  font-family: arial;
+}
+
+span {
+  border: 3px dashed lightgreen;
+  padding: 3px;
+}
+
+a img {
+  margin: 0px 30px;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+}
+
+form {
+  padding: 20px;
+}
+
+fieldset,input,select,textarea,span {
+  border-radius: 7px;
+}
+
+fieldset p  {
+  padding-left: 0px;
+}
+
+h4 {
+  font-size: 19px;
+}
+
+.follow {
+  text-align: center;
+}
+
+label {
+  font-family: monospace;
+}
+
+nav{
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background-color: hsla(96, 100%, 50%, 0.5);
+  padding: 2px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+nav li {
+  margin-right: 10px;
+  display: inline-block;
+  text-transform: capitalize;
+  font-family: serif;
+  font-style: italic;
+  font-weight: bolder;
+  color: white;
+}
+
+a:link {
+  text-decoration:none;
+  color: white;
+}
+
+ul {
+  list-style-type: circle;
+  list-style-position: inside;
+  font-family: serif, sans-serif;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+progress {
+  width: 250px;
+  height: 20px;
+  border-radius: 2px;
+  -webkit-appearance: none;
+}
+
+progress::-webkit-progress-bar {
+  background-color: #eee;
+  border-radius: 5px;
+  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+progress::-webkit-progress-value {
+  border-radius: 3px;
+  background-color: skyblue;
+  box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.25);
+
+}
+
+#media {
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-spacing: 1px 1px;
+  border-top: 1px solid #999;
+  padding: 0px 5px 0px 5px;
+  box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.25);
+}
+
+tr {
+  background-color: lightgrey;
+  border: 2px solid black;
+  text-align: center;
+  border-color: grey;
+}
+
+.title {
+  border-bottom: 2px solid black;
+}
